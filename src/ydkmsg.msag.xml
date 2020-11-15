@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>YDKMSG</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Working with messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YDKMSG</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Message data transfer incomplete</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YDKMSG</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>&amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YDKMSG</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>MSGID of the message is not filled</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>R</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>R</SPRSL>
+     <ARBGB>YDKMSG</ARBGB>
+     <STEXT>Работа с сообщениями</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Перенос данных сообщения выполнен не полностью</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>&amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Не заполнен MSGID сообщения</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

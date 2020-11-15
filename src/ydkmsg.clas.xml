@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>YDKMSG</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Working with messages and exceptions</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>C_MSGTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constants for message type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>DISPLAY_MESSAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>MESSAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>message event</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>MESSAGE_MOVE_TO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Moving corresp. message fields from one structure to another</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>MESSAGE_MOVE_TO</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Перенос полей сообщения из одной структуры в другую</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>MESSAGE_TO_STR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Retrieving message text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>MESSAGE_TO_STR</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Получение текста сообщения</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>MSG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transfers data to type ty_msg</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>MSG</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Переносит данные в тип ty_msg</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>RAISE_MESSAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Raise an exception class ycx_dk_msg with message data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>RAISE_MESSAGE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Генерация exception с данными сообщения</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>RAISE_MESSAGE_EVENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Generating an event with message data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>RAISE_MESSAGE_FROM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Raise an exception with data from a structure with a message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>RAISE_MESSAGE_FROM</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Генерация exception с данными из структуры с сообщением</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>RAISE_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Raise an exception class ycx_dk_msg with free text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>RAISE_TEXT</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Генерация exception с произвольным текстом</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>TY_BAPIRET1</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return Parameter for BAPI v1</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>TY_BAPIRET1_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return Parameter for BAPI v1 table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>TY_BAPIRET2</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return Parameter for BAPI v2</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>TY_BAPIRET2_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return Parameter for BAPI v2 table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>TY_BDCMSGCOLL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Collecting messages in the SAP System</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>TY_BDCMSGCOLL_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Collecting messages in the SAP System table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>TY_MSG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Minimal message structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDKMSG</CLSNAME>
+     <CMPNAME>TY_MSG_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Minimal message structure table</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
